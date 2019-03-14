@@ -102,7 +102,8 @@
 }
 
 footer p {
-	padding-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 
@@ -138,7 +139,35 @@ footer p {
     }
 
     .header h1 {
-        
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 145px;
+    }
+
+    .header .header-button {
+        padding-left: 210px
+    }
+
+    .about-sec {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-sec-style {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+
+    .about-sec-style p {
+        padding: 10px
+    }
+
+    .about-sec-style h2 {
+        margin: 10px;
     }
 }
 
