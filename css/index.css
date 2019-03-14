@@ -111,7 +111,7 @@ footer p {
 
 @media only screen and (max-width: 800px) {
     .container {
-        width: 768px;
+        width: 800px;
     }
 
     .myNav {
@@ -173,7 +173,13 @@ footer p {
 
 @media only screen and (max-width: 500px) {
     .container {
-        width: 375px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        padding: 20px 0px;
     }
 
     .nav-items {
@@ -182,7 +188,37 @@ footer p {
     }
 
     .nav-items a {
-        border-top: 2px solid black;
+        border-top: 1px solid black;
+        text-align: center;
+    }
+
+    .nav-items a:last-child {
+        border-bottom: 1px solid black;
+    }
+
+    .header {
+        display: flex;
+        align-content: center;
+    }
+
+    .header-h1 {
+        display: flex;
+        align-content: center;
+        
+    }
+
+    .header-h1 h1 {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .header-h1 .header-button {
+        padding: 0px 60px;
+    }
+
+    .about-sec-style {
+        display: flex;
+        flex-direction: column;
     }
 
     
