@@ -1,6 +1,12 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 /* navbar */
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
 .myNav {
 	display: flex;
 	width: 100%;
@@ -23,12 +29,6 @@
 .logo {
 	padding-top: 5px;
 }
-
-.container {
-	width: 1000px;
-	margin: 0 auto;
-}
-
 
 /* header */
 .header {
@@ -106,5 +106,43 @@ footer p {
 }
 
 
+/* breakpoints */
 
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 768px;
+    }
+
+    .myNav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-items {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-items a {
+        padding-top: 20px;
+    }
+
+    .logo {
+        order: -1;
+        align-self: center
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .header h1 {
+        
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+}
 
