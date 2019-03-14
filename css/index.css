@@ -1,3 +1,110 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* navbar */
+.myNav {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.myNav .nav-items {
+	display: flex;
+	align-self: center;
+	justify-items: space-between;
+}
+
+.nav-items a {
+	text-decoration: none;
+	padding: 20px;
+	color: grey;
+	
+}
+
+.logo {
+	padding-top: 5px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px 90px 0px;
+    border-bottom: 2px solid black;
+}
+
+.header .header-h1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+}
+
+.header .header-h1 h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 50px
+}
+
+.header-button {
+    width: 50%;
+    display: flex;
+    padding-left: 110px;
+}
+
+/* about section */
+.about-sec {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.about-sec-style {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px;
+    margin: 0 10px;
+}
+
+
+/* contact section */
+.contact-sec {
+	display: flex;
+	flex-direction: column;
+    padding: 20px;
+    border-top: 2px solid black;
+}
+
+.contact-sec A {
+	text-decoration: none;
+	color: black;
+}
+
+.contact-sec A:hover {
+	color: darkgreen;
+}
+
+.contact-sec h2 {
+	font-size: 25px;
+}
+
+/* footer */
+.footer-sec {
+	height: 50px;
+    text-align: center;
+}
+
+footer p {
+	padding-top: 40px;
+}
+
+
+
 
